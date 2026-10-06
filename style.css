@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Inter", sans-serif;
+}
+.common-button
+{
+    background-color: #0057ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 45px;
+}
+.logo img
+{
+    width: 100px;
+}
+.nav-pages ul
+{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav-pages a
+{
+    text-decoration: none;
+    color: #706a6a;
+}
