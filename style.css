@@ -41,3 +41,36 @@ body
     text-decoration: none;
     color: #706a6a;
 }
+.hero-parent
+{
+    min-height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url("./B14-A01-DevConf-2026/assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content
+{
+    max-width: 800px;
+    color: white;
+}
+.hero h1
+{
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.hero p
+{
+    font-size: 15px;
+    margin: auto;
+}
+.hero-button
+{
+    padding: 15px 45px;
+    font-size: 15px;
+    margin-top: 200px;
+}
