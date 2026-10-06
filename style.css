@@ -57,13 +57,13 @@ body
     max-width: 800px;
     color: white;
 }
-.hero h1
+.hero-content h1
 {
     font-size: 50px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 20px;
 }
-.hero p
+.hero-content p
 {
     font-size: 15px;
     margin: auto;
@@ -73,4 +73,63 @@ body
     padding: 15px 45px;
     font-size: 15px;
     margin-top: 200px;
+}
+.speaker-parent
+{
+    padding: 60px 60px 80px;
+    background-color: #fff;
+}
+.speaker-parent h1
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 35px;
+}
+.speaker-grid
+{
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.speaker-card
+{
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.speaker-card img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.speaker-info
+{
+    padding: 15px;
+}
+.speaker-role
+{
+    display: block;
+    color: #0057ff;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.speaker-info h3
+{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    color: #172033;
+}
+.speaker-info p
+{
+    font-size: 10px;
+    color: #666;
+    margin: 0;
 }
