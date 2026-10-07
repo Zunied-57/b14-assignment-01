@@ -133,3 +133,75 @@ body
     color: #666;
     margin: 0;
 }
+.pricing-parent
+{
+    padding: 60px;
+}
+.pricing-parent h1
+{
+    text-align: center;
+}
+.pricing-parent h6
+{
+    text-align: center;
+    color: #666;
+    margin-top: 10px;
+}
+.pricing-card
+{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1.5%;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #fff;
+}
+.pricing-card-type
+{
+    font-size: 12px;
+    font-weight: 700;
+    color: #0057ff;
+}
+.pricing-card-price
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0 5px;
+}
+.pricing-card-person
+{
+    font-size: 12px;
+    color: #666;
+}
+.pricing-card ul
+{
+    padding-left: 20px;
+    margin: 25px 0;
+}
+.pricing-card li
+{
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #555;
+}
+.pro-card
+{
+    background-color: #f0f5ff;
+    border: 2px solid #0057ff;
+}
+.pricing-button
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0057ff;
+    border-radius: 5px;
+    background-color: white;
+    color: #0057ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pricing-card .common-button
+{
+    width: 100%;
+}
