@@ -1,0 +1,1 @@
+Since you have seen my project, after pricing section and before footer section I need to make another relevant section shown in the picture. Suggest me what section can be added. Provide me a picture of that section if possible so that I can build the section by myself.
